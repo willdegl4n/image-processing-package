@@ -1,0 +1,38 @@
+
+------------------------
+PARTE 01
+------------------------
+preparar os aquivos e estrutura
+
+
+------------------------
+PARTE 02
+------------------------
+Preparando o ambiente
+    python -m pip install --upgrade pip
+    python -m pip install --user twine
+    python -m pip install --user setuptools
+
+
+Criando as distribuições 
+    python setup.py sdist bdist_wheel
+
+
+-------------------------
+PARTE 03
+-------------------------
+Publicar pacote
+- criando contas no pypi
+    https://pypi.org/account/register/
+    https://test.pypi.org/account/register/
+
+- comando para publicar no test Pypi
+    python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        inserir usuário e senha 
+
+- Comando para instalar o pacote de teste
+    pip install --index-url https://test.pypi.org/simple/image-processing
+        Obs: pode pegar o comando diretamente do portal pypi
+
+- Comando para intalar o pacote 
+    python -m pip install package_name
