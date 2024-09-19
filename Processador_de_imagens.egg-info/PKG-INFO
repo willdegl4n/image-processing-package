@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: Processador_de_imagens
+Version: 1.0.0
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/willdegl4n/image-processing-package
+Author: Willdeglan
+Requires-Python: >=3.5
+Description-Content-Type: texto/Markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image>=0.16.1
+
+# image_processing
+
+## Description.
+the package image_processing is used to:
+    Processing:
+        - Histograma
+        - Structural similaruty
+        - Resize image
+    Utils
+        - Read image
+        - Save image
+        - Plot image
+        - Plot result
+        - Plot Hitogram
+
+## installation 
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+'''bash
+pip install image_processing
+'''
+
+## Author
+Willdeglan SQL-Dicas
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
